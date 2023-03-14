@@ -1,4 +1,4 @@
-# Porfanity-Checker
+# Profanity-Checker
 This program checks for any abusive words and does sentiment analysis of an audio file.
 This code uses APIs from Google speech recognition, transcription for translating live audio to recognisable form. 
 I also used API from purgomalum website for sentiment analysis.
