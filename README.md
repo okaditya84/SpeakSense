@@ -19,9 +19,9 @@ This repository contains a Python script that performs profanity checking and se
 ```shell
 
 2. Install the required dependencies by running the following command:
-```shell
+```
 pip install -r requirements.txt
-```shell
+```
 
 3. Ensure you have the necessary API keys:
 
