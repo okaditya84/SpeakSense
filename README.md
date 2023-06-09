@@ -20,7 +20,7 @@ This repository contains a Python script that performs profanity checking and se
 
 2. Install the required dependencies by running the following command:
    ```shell
-pip install -r requirements.txt
+   pip install -r requirements.txt
 
 
 3. Ensure you have the necessary API keys:
@@ -33,7 +33,7 @@ pip install -r requirements.txt
 
 1. Run the Profanity checker.py script:
    ```shell
-python Profanity\ checker.py
+   python Profanity\ checker.py
 
 2. Choose the desired mode of input:
 
