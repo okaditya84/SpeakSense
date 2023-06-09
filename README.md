@@ -1,11 +1,55 @@
 # Profanity-Checker
 
-This program checks for any abusive words and does sentiment analysis of an audio file.
-This code uses APIs from Google speech recognition, transcription for translating live audio to recognisable form. 
-I also used API from purgomalum website for sentiment analysis.
-It has an accuracy of 98%.
-The working of the program is simple as sounds:
-Firstly the user will be given a choice to choose from mic or audio file.
-Then after giving the input audio, the program uses API from Google and PURGOMALUM to recognise abusive and nsfw words. It also generates sentiments such as very positive,
-positive, neutral, negative, very negative based on the voice pitch of the audio and gives a score of each category of sentiment between 0 to 1.
-Where 0 being the sentiment was not present at all and increasing upto 1 where the sentiment is strongly present.
+This repository contains a Python script that performs profanity checking and sentiment analysis on audio files. The script utilizes APIs from Google Speech Recognition, Purgomalum, and the VADER Sentiment Analysis tool.
+
+## Features
+
+- Record audio from the microphone or select an audio file for analysis
+- Perform profanity checking using the Purgomalum API
+- Analyze sentiment using the VADER Sentiment Analysis tool
+- Generate sentiment scores and labels
+- Store input and output data in a CSV file
+
+## Installation
+
+1. Clone the repository:
+
+   ```shell
+   git clone https://github.com/okaditya84/Profanity-Checker.git
+```
+2. Install the required dependencies by running the following command:
+```shell
+pip install -r requirements.txt
+```
+3. Ensure you have the necessary API keys:
+
+- Google Speech Recognition API key (follow Google's documentation on obtaining an API key)
+- Purgomalum API key (visit the Purgomalum website and sign up to get an API key)
+
+
+##Usage
+
+1. Run the Profanity checker.py script:
+```shell
+python Profanity\ checker.py
+```
+
+2. Choose the desired mode of input:
+
+- Enter 'mic' to record audio from the microphone.
+- Enter 'file' to select an audio file for analysis.
+
+3. Follow the on-screen instructions:
+
+- If using the microphone, speak clearly into the microphone after the prompt.
+- If selecting a file, use the file dialog to choose an audio file.
+
+4. Wait for the script to perform the following tasks:
+
+- Convert audio to text using Google Speech Recognition.
+- Preprocess the text by removing stop words and lemmatizing words.
+- Check for profanity in the text using the Purgomalum API.
+- Analyze the sentiment of the text using VADER Sentiment Analysis.
+- Display the results, including the sentiment scores and label.
+
+5. The input text, filtered text, sentiment scores, and sentiment label will be saved in the 'output.csv' file.
