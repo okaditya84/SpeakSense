@@ -16,10 +16,10 @@ This repository contains a Python script that performs profanity checking and se
 
    ```shell
    git clone https://github.com/okaditya84/Profanity-Checker.git
-```shell
+```
 
 2. Install the required dependencies by running the following command:
-```
+   ```shell
 pip install -r requirements.txt
 ```
 
@@ -32,7 +32,7 @@ pip install -r requirements.txt
 ## Usage
 
 1. Run the Profanity checker.py script:
-```shell
+   ```shell
 python Profanity\ checker.py
 ```
 
