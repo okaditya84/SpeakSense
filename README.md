@@ -16,18 +16,20 @@ This repository contains a Python script that performs profanity checking and se
 
    ```shell
    git clone https://github.com/okaditya84/Profanity-Checker.git
-```
+```shell
+
 2. Install the required dependencies by running the following command:
 ```shell
 pip install -r requirements.txt
-```
+```shell
+
 3. Ensure you have the necessary API keys:
 
 - Google Speech Recognition API key (follow Google's documentation on obtaining an API key)
 - Purgomalum API key (visit the Purgomalum website and sign up to get an API key)
 
 
-##Usage
+## Usage
 
 1. Run the Profanity checker.py script:
 ```shell
